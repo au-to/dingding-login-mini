@@ -1,0 +1,17 @@
+{
+  "name": "dingding-login-mini",
+  "version": "1.0.0",
+  "description": "钉钉登录集成最小全栈项目",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["钉钉", "登录", "Vue", "Express", "全栈"],
+  "author": "",
+  "license": "MIT"
+}
